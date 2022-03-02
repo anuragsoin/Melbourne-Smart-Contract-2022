@@ -1,0 +1,17 @@
+Getting Started
+===============
+npx hardhat compile
+
+Solhint
+=======
+npx solhint .\contracts\*
+
+Slither
+=======
+docker run --workdir "/share" -v "${PWD}:/share" trailofbits/eth-security-toolbox -c "slither . --ignore-compile --filter-paths `"node_modules`""
+
+Echidna
+=======
+docker run -it --workdir "/share" -v “${PWD}:/share” trailofbits/eth-security-toolbox
+solc-select 0.8.4
+echidna-test contracts/test.sol --contract TestToken
