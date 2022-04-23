@@ -1,0 +1,1 @@
+exports.checkLinkFunds = require('./check-funds');

@@ -1,0 +1,13 @@
+{
+  "contracts": {
+    "hardhat": {
+      "contractAddress": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0"
+    },
+    "mumbai": {
+      "contractAddress": "0xD3211377F460D387762F6652bA30983D4AC612fC"
+    },
+    "kovan": {
+      "contractAddress": "0x7320e39d7c71D5463a6c73dD836CF007E155d6B7"
+    }
+  }
+}
